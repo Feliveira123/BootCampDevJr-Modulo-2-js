@@ -40,6 +40,6 @@ function calc() {
       });
       output.innerHTML += `<p style="margin-top: 50px; margin-bottom: 10px; font-weight: 600; font-size: 17px;">Preço final: ${formatter.format(total)}</p>`;
   } else {
-      output.innerHTML = `Caro <span style="font-weight: 600">${userName}</span>, por favor selecione um prato`;
+      output.innerHTML = `Caro(a) <span style="font-weight: 600">${userName}</span>, por favor selecione um prato`;
   }
 }
